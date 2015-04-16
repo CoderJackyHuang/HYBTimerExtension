@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6950BC861ADF551300897F47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BC851ADF551300897F47 /* main.m */; };
+		6950BC891ADF551300897F47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BC881ADF551300897F47 /* AppDelegate.m */; };
+		6950BC8C1ADF551300897F47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BC8B1ADF551300897F47 /* ViewController.m */; };
+		6950BC8F1ADF551300897F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950BC8D1ADF551300897F47 /* Main.storyboard */; };
+		6950BC911ADF551300897F47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6950BC901ADF551300897F47 /* Images.xcassets */; };
+		6950BC941ADF551300897F47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6950BC921ADF551300897F47 /* LaunchScreen.xib */; };
+		6950BCA01ADF551300897F47 /* HYBTimerExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BC9F1ADF551300897F47 /* HYBTimerExtensionTests.m */; };
+		6950BCAC1ADF555700897F47 /* NSTimer+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950BCAB1ADF555700897F47 /* NSTimer+HYBExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6950BC9A1ADF551300897F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6950BC781ADF551300897F47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6950BC7F1ADF551300897F47;
+			remoteInfo = HYBTimerExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6950BC801ADF551300897F47 /* HYBTimerExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYBTimerExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950BC841ADF551300897F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6950BC851ADF551300897F47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6950BC871ADF551300897F47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6950BC881ADF551300897F47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6950BC8A1ADF551300897F47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6950BC8B1ADF551300897F47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6950BC8E1ADF551300897F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6950BC901ADF551300897F47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6950BC931ADF551300897F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6950BC991ADF551300897F47 /* HYBTimerExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYBTimerExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6950BC9E1ADF551300897F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6950BC9F1ADF551300897F47 /* HYBTimerExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBTimerExtensionTests.m; sourceTree = "<group>"; };
+		6950BCAA1ADF555700897F47 /* NSTimer+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+HYBExtension.h"; path = "HYBTimerExtension/NSTimer+HYBExtension.h"; sourceTree = "<group>"; };
+		6950BCAB1ADF555700897F47 /* NSTimer+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+HYBExtension.m"; path = "HYBTimerExtension/NSTimer+HYBExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6950BC7D1ADF551300897F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BC961ADF551300897F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6950BC771ADF551300897F47 = {
+			isa = PBXGroup;
+			children = (
+				6950BC821ADF551300897F47 /* HYBTimerExtension */,
+				6950BC9C1ADF551300897F47 /* HYBTimerExtensionTests */,
+				6950BC811ADF551300897F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6950BC811ADF551300897F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6950BC801ADF551300897F47 /* HYBTimerExtension.app */,
+				6950BC991ADF551300897F47 /* HYBTimerExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6950BC821ADF551300897F47 /* HYBTimerExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCA91ADF553500897F47 /* HYBTimerExtension */,
+				6950BC871ADF551300897F47 /* AppDelegate.h */,
+				6950BC881ADF551300897F47 /* AppDelegate.m */,
+				6950BC8A1ADF551300897F47 /* ViewController.h */,
+				6950BC8B1ADF551300897F47 /* ViewController.m */,
+				6950BC8D1ADF551300897F47 /* Main.storyboard */,
+				6950BC901ADF551300897F47 /* Images.xcassets */,
+				6950BC921ADF551300897F47 /* LaunchScreen.xib */,
+				6950BC831ADF551300897F47 /* Supporting Files */,
+			);
+			path = HYBTimerExtension;
+			sourceTree = "<group>";
+		};
+		6950BC831ADF551300897F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6950BC841ADF551300897F47 /* Info.plist */,
+				6950BC851ADF551300897F47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6950BC9C1ADF551300897F47 /* HYBTimerExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6950BC9F1ADF551300897F47 /* HYBTimerExtensionTests.m */,
+				6950BC9D1ADF551300897F47 /* Supporting Files */,
+			);
+			path = HYBTimerExtensionTests;
+			sourceTree = "<group>";
+		};
+		6950BC9D1ADF551300897F47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6950BC9E1ADF551300897F47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6950BCA91ADF553500897F47 /* HYBTimerExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6950BCAA1ADF555700897F47 /* NSTimer+HYBExtension.h */,
+				6950BCAB1ADF555700897F47 /* NSTimer+HYBExtension.m */,
+			);
+			name = HYBTimerExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6950BC7F1ADF551300897F47 /* HYBTimerExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950BCA31ADF551300897F47 /* Build configuration list for PBXNativeTarget "HYBTimerExtension" */;
+			buildPhases = (
+				6950BC7C1ADF551300897F47 /* Sources */,
+				6950BC7D1ADF551300897F47 /* Frameworks */,
+				6950BC7E1ADF551300897F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYBTimerExtension;
+			productName = HYBTimerExtension;
+			productReference = 6950BC801ADF551300897F47 /* HYBTimerExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6950BC981ADF551300897F47 /* HYBTimerExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6950BCA61ADF551300897F47 /* Build configuration list for PBXNativeTarget "HYBTimerExtensionTests" */;
+			buildPhases = (
+				6950BC951ADF551300897F47 /* Sources */,
+				6950BC961ADF551300897F47 /* Frameworks */,
+				6950BC971ADF551300897F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6950BC9B1ADF551300897F47 /* PBXTargetDependency */,
+			);
+			name = HYBTimerExtensionTests;
+			productName = HYBTimerExtensionTests;
+			productReference = 6950BC991ADF551300897F47 /* HYBTimerExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6950BC781ADF551300897F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = huangyibiao;
+				TargetAttributes = {
+					6950BC7F1ADF551300897F47 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6950BC981ADF551300897F47 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6950BC7F1ADF551300897F47;
+					};
+				};
+			};
+			buildConfigurationList = 6950BC7B1ADF551300897F47 /* Build configuration list for PBXProject "HYBTimerExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6950BC771ADF551300897F47;
+			productRefGroup = 6950BC811ADF551300897F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6950BC7F1ADF551300897F47 /* HYBTimerExtension */,
+				6950BC981ADF551300897F47 /* HYBTimerExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6950BC7E1ADF551300897F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BC8F1ADF551300897F47 /* Main.storyboard in Resources */,
+				6950BC941ADF551300897F47 /* LaunchScreen.xib in Resources */,
+				6950BC911ADF551300897F47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BC971ADF551300897F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6950BC7C1ADF551300897F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BC8C1ADF551300897F47 /* ViewController.m in Sources */,
+				6950BC891ADF551300897F47 /* AppDelegate.m in Sources */,
+				6950BCAC1ADF555700897F47 /* NSTimer+HYBExtension.m in Sources */,
+				6950BC861ADF551300897F47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6950BC951ADF551300897F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950BCA01ADF551300897F47 /* HYBTimerExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6950BC9B1ADF551300897F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6950BC7F1ADF551300897F47 /* HYBTimerExtension */;
+			targetProxy = 6950BC9A1ADF551300897F47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6950BC8D1ADF551300897F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950BC8E1ADF551300897F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6950BC921ADF551300897F47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6950BC931ADF551300897F47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6950BCA11ADF551300897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6950BCA21ADF551300897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6950BCA41ADF551300897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBTimerExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6950BCA51ADF551300897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYBTimerExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6950BCA71ADF551300897F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBTimerExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBTimerExtension.app/HYBTimerExtension";
+			};
+			name = Debug;
+		};
+		6950BCA81ADF551300897F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYBTimerExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYBTimerExtension.app/HYBTimerExtension";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6950BC7B1ADF551300897F47 /* Build configuration list for PBXProject "HYBTimerExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCA11ADF551300897F47 /* Debug */,
+				6950BCA21ADF551300897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6950BCA31ADF551300897F47 /* Build configuration list for PBXNativeTarget "HYBTimerExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCA41ADF551300897F47 /* Debug */,
+				6950BCA51ADF551300897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6950BCA61ADF551300897F47 /* Build configuration list for PBXNativeTarget "HYBTimerExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6950BCA71ADF551300897F47 /* Debug */,
+				6950BCA81ADF551300897F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6950BC781ADF551300897F47 /* Project object */;
+}
